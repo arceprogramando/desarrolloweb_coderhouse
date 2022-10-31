@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+  * p {
+    color: #333333; }
+
+header {
+  width: 100%; }
+  header .nav__superior {
+    height: 65px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .nav__superior .izquierdo p {
+      display: none; }
+    header .nav__superior .izquierdo a .fa-brands {
+      font-size: 3em;
+      color: #25D366;
+      margin-left: 30px; }
+    header .nav__superior .derecho a .iniciar__sesion {
+      display: none; }
+    header .nav__superior .derecho a .logo .fa-solid {
+      font-size: 2.5em;
+      margin-right: 30px;
+      color: #eccac2; }
+  header .nav__medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px; }
+  header .nav__abajo {
+    display: none; }
+
+@media (min-width: 768px) {
+  header .nav__superior {
+    height: 60px; }
+    header .nav__superior .izquierdo a {
+      display: flex;
+      align-items: center; }
+      header .nav__superior .izquierdo a .fa-brands {
+        color: #ECCAC2;
+        margin-right: 10px; }
+    header .nav__superior .izquierdo p {
+      display: block;
+      color: #ECCAC2;
+      font-size: .9em; }
+    header .nav__superior .derecho a .iniciar__sesion {
+      display: block;
+      color: #ECCAC2;
+      font-size: 1.5em;
+      margin-right: 15px; }
+    header .nav__superior .derecho a .logo {
+      display: none; }
+  header .nav__medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; }
+    header .nav__medio img {
+      width: 300px;
+      height: 120px; }
+  header .nav__abajo {
+    display: block;
+    border-top: 1px solid #333333; }
+    header .nav__abajo ul {
+      display: flex;
+      justify-content: center; }
+    header .nav__abajo .nav__lista {
+      font-size: 1em;
+      padding: 30px;
+      display: flex; }
+      header .nav__abajo .nav__lista .fa-solid {
+        font-size: .7em; }
+      header .nav__abajo .nav__lista a {
+        display: flex;
+        color: #333333;
+        align-items: center; }
+      header .nav__abajo .nav__lista .buscador {
+        font-size: 1.1em;
+        color: #333333; }
+        header .nav__abajo .nav__lista .buscador label:hover {
+          cursor: pointer; } }
+
+main {
+  display: none; }
