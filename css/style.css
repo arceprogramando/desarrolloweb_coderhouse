@@ -373,4 +373,23 @@ main .segunda__maquetacion {
       width: 100%; }
       main .maquetacion__abajo .card {
         height: 300px;
-        width: 210px; } }
+        width: 210px; }
+        main .maquetacion__abajo .card .parrafo__card p {
+          text-shadow: 1px 1px 1px #000, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1); }
+        main .maquetacion__abajo .card button {
+          background-color: #eb9389;
+          color: #000;
+          border: none;
+          color: white;
+          padding: 10px 25px;
+          border-radius: 10%;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer; }
+          main .maquetacion__abajo .card button:hover {
+            filter: brightness(1.05); } }
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #999; }
