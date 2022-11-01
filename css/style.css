@@ -366,4 +366,11 @@ main .segunda__maquetacion {
         width: 40%;
         display: flex;
         justify-content: center;
-        align-items: center; } }
+        align-items: center; }
+    main .maquetacion__abajo {
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+      main .maquetacion__abajo .card {
+        height: 300px;
+        width: 210px; } }

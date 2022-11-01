@@ -227,5 +227,14 @@ main {
                 align-items: center;
             }
         }
+        .maquetacion__abajo{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            .card{
+                height: 300px;
+                width: 210px;
+            }
+        }
     }
 }
