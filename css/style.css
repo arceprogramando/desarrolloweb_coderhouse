@@ -43,7 +43,7 @@ header {
       display: flex;
       align-items: center; }
       header .nav__superior .izquierdo a .fa-brands {
-        color: #eccac2;
+        color: #25d366;
         margin-right: 10px; }
     header .nav__superior .izquierdo p {
       display: block;
@@ -104,12 +104,12 @@ main .guias {
 
 main .maquetacion {
   gap: 1rem;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; }
   main .maquetacion .primera__maquetacion {
-    height: 300px;
+    height: 400px;
     width: 90%;
     background-image: url(../assets/images/zapatos1.webp);
     background-size: cover;
@@ -131,7 +131,7 @@ main .maquetacion {
       font-size: 1.5em; }
 
 main .segunda__maquetacion {
-  height: 300px;
+  height: 400px;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -149,7 +149,11 @@ main .segunda__maquetacion {
     background-size: cover; }
   main .segunda__maquetacion p {
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    -webkit-text-stroke: #fff 1px;
+    color: #000;
+    font-size: 1.5em; }
 
 .descuentos img {
   height: 60px; }
@@ -286,7 +290,7 @@ main .segunda__maquetacion {
     margin: 10px;
     background-color: #f99fa9;
     border-radius: 4px;
-    border: 1px solid black; }
+    border: 1px solid #000; }
   .card__contenedor .parrafo__card {
     margin-bottom: 10px; }
     .card__contenedor .parrafo__card p {
@@ -295,4 +299,71 @@ main .segunda__maquetacion {
 
 @media (min-width: 768px) {
   main {
-    background-color: red; } }
+    border-top: 1px solid #333; }
+    main .guias {
+      display: flex;
+      font-size: 0.8em;
+      margin: 10px 0px 10px 0px; }
+      main .guias .marcador {
+        margin: 0px 5px 0px 5px; }
+        main .guias .marcador:hover {
+          color: #565656;
+          font-size: 1.07em;
+          cursor: pointer; }
+    main .descuentos {
+      background-color: #eb9389;
+      height: 70px;
+      width: 100%;
+      align-items: center;
+      position: relative;
+      margin-bottom: 20px; }
+      main .descuentos img {
+        height: 67px;
+        width: 40vw;
+        position: absolute;
+        right: 0vw;
+        animation-name: mianimacion;
+        animation-duration: 15s;
+        animation-iteration-count: infinite; }
+  @keyframes mianimacion {
+    from {
+      right: -10vw; }
+    to {
+      right: 100vw; } }
+    main .maquetacion {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 100vh; }
+      main .maquetacion .primera__maquetacion {
+        margin-left: 2.5%;
+        height: 100%;
+        width: 50%;
+        display: flex; }
+        main .maquetacion .primera__maquetacion .button {
+          margin-bottom: 5%;
+          font-family: "Raleway", sans-serif;
+          font-size: 2.5em;
+          font-weight: 600;
+          -webkit-text-stroke: #000 2px;
+          font-size: 1.8em; }
+          main .maquetacion .primera__maquetacion .button:hover {
+            cursor: pointer;
+            color: #565656;
+            font-size: 1.9em; }
+          main .maquetacion .primera__maquetacion .button p {
+            color: #fff;
+            -webkit-text-stroke: #000 2px; }
+        main .maquetacion .primera__maquetacion .parrafo {
+          font-family: "Raleway", sans-serif;
+          font-size: 2.5em;
+          font-weight: 600;
+          -webkit-text-stroke: #000 2px; }
+          main .maquetacion .primera__maquetacion .parrafo p {
+            color: #fff; }
+      main .maquetacion .segunda__maquetacion {
+        height: 70%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
