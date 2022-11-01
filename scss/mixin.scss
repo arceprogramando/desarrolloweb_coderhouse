@@ -1,0 +1,12 @@
+@mixin card {
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

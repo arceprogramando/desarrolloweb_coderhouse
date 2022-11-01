@@ -20,7 +20,7 @@ header {
       display: none; }
     header .nav__superior .izquierdo a .fa-brands {
       font-size: 3em;
-      color: #25D366;
+      color: #25d366;
       margin-left: 30px; }
     header .nav__superior .derecho a .iniciar__sesion {
       display: none; }
@@ -43,15 +43,15 @@ header {
       display: flex;
       align-items: center; }
       header .nav__superior .izquierdo a .fa-brands {
-        color: #ECCAC2;
+        color: #eccac2;
         margin-right: 10px; }
     header .nav__superior .izquierdo p {
       display: block;
-      color: #ECCAC2;
-      font-size: .9em; }
+      color: #eccac2;
+      font-size: 0.9em; }
     header .nav__superior .derecho a .iniciar__sesion {
       display: block;
-      color: #ECCAC2;
+      color: #eccac2;
       font-size: 1.5em;
       margin-right: 15px; }
     header .nav__superior .derecho a .logo {
@@ -75,7 +75,7 @@ header {
       padding: 30px;
       display: flex; }
       header .nav__abajo .nav__lista .fa-solid {
-        font-size: .7em; }
+        font-size: 0.7em; }
       header .nav__abajo .nav__lista a {
         display: flex;
         color: #333333;
@@ -86,5 +86,213 @@ header {
         header .nav__abajo .nav__lista .buscador label:hover {
           cursor: pointer; } }
 
-main {
-  display: none; }
+main img {
+  width: 100%; }
+
+main p {
+  font-size: 1em; }
+
+main .guias {
+  display: flex;
+  user-select: none; }
+  main .guias .marcador {
+    padding: 0px 5px 5px 5px; }
+    main .guias .marcador:hover {
+      color: #565656;
+      font-size: 1.07em;
+      cursor: pointer; }
+
+main .maquetacion {
+  gap: 1rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main .maquetacion .primera__maquetacion {
+    height: 300px;
+    width: 90%;
+    background-image: url(../assets/images/zapatos1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center; }
+    main .maquetacion .primera__maquetacion .parrafo {
+      font-family: "Raleway", sans-serif;
+      -webkit-text-stroke: #fff 1px;
+      color: #000;
+      font-size: 2em; }
+    main .maquetacion .primera__maquetacion .button {
+      font-family: "Raleway", sans-serif;
+      -webkit-text-stroke: #fff 1px;
+      color: #000;
+      font-size: 1.5em; }
+
+main .segunda__maquetacion {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/watercolor.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  transition: 10s; }
+  main .segunda__maquetacion:hover {
+    background-image: url(../assets/images/zapatos2.webp);
+    background-size: cover; }
+  main .segunda__maquetacion p {
+    justify-content: center;
+    align-items: center; }
+
+.descuentos img {
+  height: 60px; }
+
+.card__contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px; }
+  .card__contenedor .card__uno {
+    background-image: url(/assets/images/zapatos1.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__dos {
+    background-image: url(/assets/images/zapatos2.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__tres {
+    background-image: url(/assets/images/zapatos3.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__cuatro {
+    background-image: url(/assets/images/zapatos4.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__cinco {
+    background-image: url(/assets/images/zapatos5.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__seis {
+    background-image: url(/assets/images/zapatos6.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__siete {
+    background-image: url(/assets/images/zapatos7.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__ocho {
+    background-image: url(/assets/images/zapatos8.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__nueve {
+    background-image: url(/assets/images/zapatos9.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .card__diez {
+    background-image: url(/assets/images/zapatos10.webp);
+    background-size: cover;
+    width: 70vw;
+    height: 44vh;
+    margin: 10px;
+    border-radius: 3%;
+    border: 3px solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .card__contenedor .nombre__zapatos {
+    text-align: center;
+    margin: 10px;
+    background-color: #f99fa9;
+    border-radius: 4px;
+    border: 1px solid black; }
+  .card__contenedor .parrafo__card {
+    margin-bottom: 10px; }
+    .card__contenedor .parrafo__card p {
+      font-size: 1.7em;
+      color: #fff; }
+
+@media (min-width: 768px) {
+  main {
+    background-color: red; } }

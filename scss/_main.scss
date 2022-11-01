@@ -1,3 +1,150 @@
-main{
-    display: none;
+main {
+    img {
+        width: 100%;
+    }
+    p {
+        font-size: 1em;
+    }
+    .guias {
+        display: flex;
+        user-select: none;
+        .marcador {
+            padding: 0px 5px 5px 5px;
+            &:hover {
+                color: #565656;
+                font-size: 1.07em;
+                cursor: pointer;
+            }
+        }
+    }
+    .maquetacion {
+        gap: 1rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .primera__maquetacion {
+            height: 300px;
+            width: 90%;
+            background-image: url(../assets/images/zapatos1.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            .parrafo {
+                font-family: "Raleway", sans-serif;
+                -webkit-text-stroke: #fff 1px;
+                color: #000;
+                font-size: 2em;
+            }
+            .button {
+                font-family: "Raleway", sans-serif;
+                -webkit-text-stroke: #fff 1px;
+                color: #000;
+                font-size: 1.5em;
+            }
+        }
+    }
+    .segunda__maquetacion {
+        height: 300px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../assets/images/watercolor.webp);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        transition: 10s;
+        // transition-duration: inherit;
+        &:hover {
+            background-image: url(../assets/images/zapatos2.webp);
+            background-size: cover;
+        }
+        p {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.descuentos {
+    img {
+        height: 60px;
+    }
+}
+
+.card__contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    .card__uno {
+        background-image: url(/assets/images/zapatos1.webp);
+        @include card
+    }
+    .card__dos{
+        background-image: url(/assets/images/zapatos2.webp);
+        @include card;
+    }
+    .card__tres{
+        background-image: url(/assets/images/zapatos3.webp);
+        @include card;
+    }
+    .card__cuatro{
+        background-image: url(/assets/images/zapatos4.webp);
+        @include card;
+    }
+    .card__cinco{
+        background-image: url(/assets/images/zapatos5.webp);
+        @include card;
+    }
+    .card__seis{
+        background-image: url(/assets/images/zapatos6.webp);
+        @include card;
+    }
+    .card__siete{
+        background-image: url(/assets/images/zapatos7.webp);
+        @include card;
+    }
+    .card__ocho{
+        background-image: url(/assets/images/zapatos8.webp);
+        @include card;
+    }
+    .card__nueve{
+        background-image: url(/assets/images/zapatos9.webp);
+        @include card;
+    }
+    .card__diez{
+        background-image: url(/assets/images/zapatos10.webp);
+        @include card;
+    }
+    .nombre__zapatos {
+        text-align: center;
+        margin: 10px;
+        background-color: #f99fa9;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    .parrafo__card {
+        margin-bottom: 10px;
+        p {
+            font-size: 1.7em;
+            color: #fff;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        background-color: red;
+    }
 }
