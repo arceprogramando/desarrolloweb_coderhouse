@@ -1,0 +1,43 @@
+header{
+    width: 100%;
+    .nav__abajo__visible{
+        
+        border-top: 1px solid #333;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    .nav__lista{
+        padding: 15px;
+        display: flex;
+    }
+    a{
+        display: flex;
+        color: #333;
+        align-items: center;
+    }
+    .buscador {
+        display: none;
+        width: 15px;
+        font-size: 1.1em;
+        color: #333333;
+        label {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.main__sesion{
+    border-top: 1px solid #333;
+    background-color: rgb(79, 63, 85);
+    form{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media (min-widht:768px){
+    
+}

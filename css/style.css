@@ -86,12 +86,6 @@ header {
         header .nav__abajo .nav__lista .buscador label:hover {
           cursor: pointer; } }
 
-main img {
-  width: 100%; }
-
-main p {
-  font-size: 1em; }
-
 main .guias {
   display: flex;
   user-select: none; }
@@ -156,6 +150,7 @@ main .segunda__maquetacion {
     font-size: 1.5em; }
 
 .descuentos img {
+  width: 100%;
   height: 60px; }
 
 .card__contenedor {
@@ -393,3 +388,32 @@ footer {
   height: 150px;
   width: 100%;
   background-color: #999; }
+
+header {
+  width: 100%; }
+  header .nav__abajo__visible {
+    border-top: 1px solid #333; }
+  header ul {
+    display: flex;
+    justify-content: center; }
+  header .nav__lista {
+    padding: 15px;
+    display: flex; }
+  header a {
+    display: flex;
+    color: #333;
+    align-items: center; }
+  header .buscador {
+    display: none;
+    width: 15px;
+    font-size: 1.1em;
+    color: #333333; }
+    header .buscador label:hover {
+      cursor: pointer; }
+
+.main__sesion {
+  border-top: 1px solid #333;
+  background-color: #4f3f55; }
+  .main__sesion form {
+    width: 100%;
+    margin-top: 10px; }
