@@ -132,7 +132,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="guias__dos">
                 <div class="guias">
                     <a href="#inicio">
@@ -246,28 +245,83 @@
 
 
         <footer>
-            <div class="suscripcion">
-
-                <p>
-                    Suscribite a nuestro Diario informativo y enterate<br>
-                    antes que nadie de las nuevas  importaciones!!!!
-                </p>
-                <label class="genero">
-                    <input type="radio" name="genero" id="genero" value="masculino">Masculino
-                    <br>
-                    <input type="radio" name="genero" id="genero" value="femenino">Femenino
-                    <br>
-                    <input type="text" name="" id="nombre" placeholder="Escriba su nombre:">
-                    <label for="nombre">
-                        <div class="mensaje">
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="button" value="Enviar">
+            <form>
+                <h2>
+                    <p>
+                        Suscribite a nuestro Diario informativo <br> y enterate
+                        antes que nadie de las nuevas  importaciones!!!!
+                    </p>
+                </h2>
+                <div class="suscripcion">
+                    <div class="izquierda">
+                        <h3>genero</h3>
+                        <div>
+                            <label for="genero">Masculino</label>
+                            <input type="radio" name="genero" id="genero" value="masculino"required>
                         </div>
-                    </label>
+                        <div>
+                            <label for="genero-f">Femenino</label>
+                            <input type="radio" name="genero" id="genero-f" value="femenino" required>
+                        </div>
+                        <div>
+                            <label for="genero-sg">Sin genero</label>
+                            <input type="radio" name="genero" id="genero-sg" value="singenero" required>
+                        </div>
+                            <div>
+                                <label for="nombre" >Nombre
+                                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre:" required>   
+                                </label>
+                            </div>
+                        </div>
+                    <div class="derecha">
+                        <label for="email" >Email
+                            <span>
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                        </label>
+                        <input type="email" placeholder="Ingrese su email:" name="email"  id="email" required>
                     <p>Estoy de acuerdo con <a href="#">Terminos y servicios</a></p>
-                </label>
-            </footer>
+                    </div>
+                    <input type="submit" value="Enviar" class="submit">
+                </div>
+                </form>
+        </section>
 
+        <div class="ayuda__informativa">
+
+            <div class="mi__cuenta">
+                <h2>Mi cuenta</h2>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis datos personales</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis direcciones</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis pedidos</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis cupones</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Devolver mi compra </h3>
+            </div>
+            <div class="preguntas__frecuentes">
+                <h2>Preguntas frecuentes</h2>
+                <h3><i class="fa-solid fa-chevron-right"></i>Como comprar</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Formas de Pago</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Metodo de envio</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Cambios y devoluciones</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Tabla de talles</h3>
+            </div>
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:arceprogramando@gmail.com">arceprogramando@gmail.com</a>
+                </div>
+                
+                <div class="whatsapp">
+                    <a href="https://wa.me/5491150990913?text=Holaa!%20me%20gustaria%20un%20presupuesto%20de%20tu%20trabajo%20desarrollando%20paginas%20web%20!!!!"target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p class="numero__whatsapp">+5491150990913</p>
+                    </a>
+                </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+</footer>
+</body>
 </html>

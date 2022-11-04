@@ -38,7 +38,17 @@ main {
                 font-family: "Raleway", sans-serif;
                 -webkit-text-stroke: #fff 1px;
                 color: #000;
-                font-size: 1.5em;
+                font-size: 2em;
+                margin-bottom: 5%;
+                &:hover {
+                    cursor: pointer;
+                    color: #565656;
+                    font-size: 1.9em;
+                }
+                p {
+                    color: #fff;
+                    -webkit-text-stroke: $colorNegro 2px;
+                }
             }
         }
     }
@@ -56,6 +66,11 @@ main {
         justify-content: end;
         text-align: center;
         transition: 10s;
+        i{
+            color: $colorCuatro;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+        }
         // transition-duration: inherit;
         &:hover {
             background-image: url(../assets/images/zapatos2.webp);
@@ -67,8 +82,9 @@ main {
             font-family: "Raleway", sans-serif;
             -webkit-text-stroke: #fff 1px;
             color: #000;
-            font-size: 1.5em;
+            font-size: 1.33em; 
         }
+        
     }
 }
 
@@ -173,13 +189,12 @@ main {
                 height: 67px;
                 width: 40vw;
                 position: absolute;
-                right: 0vw;
                 animation-name: mianimacion;
                 animation-duration: 15s;
                 animation-iteration-count: infinite;
                 @keyframes mianimacion {
                     from {
-                        right: -10vw;
+                        right: 0vw;
                     }
                     to {
                         right: 100vw;
@@ -222,8 +237,12 @@ main {
                 height: 70%;
                 width: 40%;
                 display: flex;
-                justify-content: center;
+                justify-content: end;
                 align-items: center;
+                .button{
+                    margin-bottom: 5%;
+                    font-size: 1em;
+                }
             }
         }
         .maquetacion__abajo {

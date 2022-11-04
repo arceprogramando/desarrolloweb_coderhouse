@@ -122,7 +122,15 @@ main .maquetacion {
       font-family: "Raleway", sans-serif;
       -webkit-text-stroke: #fff 1px;
       color: #000;
-      font-size: 1.5em; }
+      font-size: 2em;
+      margin-bottom: 5%; }
+      main .maquetacion .primera__maquetacion .button:hover {
+        cursor: pointer;
+        color: #565656;
+        font-size: 1.9em; }
+      main .maquetacion .primera__maquetacion .button p {
+        color: #fff;
+        -webkit-text-stroke: #000 2px; }
 
 main .segunda__maquetacion {
   height: 400px;
@@ -138,6 +146,10 @@ main .segunda__maquetacion {
   justify-content: end;
   text-align: center;
   transition: 10s; }
+  main .segunda__maquetacion i {
+    color: #eb9389;
+    margin-bottom: 25px;
+    font-size: 1.5em; }
   main .segunda__maquetacion:hover {
     background-image: url(../assets/images/zapatos2.webp);
     background-size: cover; }
@@ -147,7 +159,7 @@ main .segunda__maquetacion {
     font-family: "Raleway", sans-serif;
     -webkit-text-stroke: #fff 1px;
     color: #000;
-    font-size: 1.5em; }
+    font-size: 1.33em; }
 
 .descuentos img {
   width: 100%;
@@ -163,8 +175,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__uno {
     background-image: url(/assets/images/zapatos1.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -175,8 +187,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__dos {
     background-image: url(/assets/images/zapatos2.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -187,8 +199,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__tres {
     background-image: url(/assets/images/zapatos3.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -199,8 +211,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__cuatro {
     background-image: url(/assets/images/zapatos4.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -211,8 +223,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__cinco {
     background-image: url(/assets/images/zapatos5.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -223,8 +235,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__seis {
     background-image: url(/assets/images/zapatos6.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -235,8 +247,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__siete {
     background-image: url(/assets/images/zapatos7.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -247,8 +259,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__ocho {
     background-image: url(/assets/images/zapatos8.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -259,8 +271,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__nueve {
     background-image: url(/assets/images/zapatos9.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -271,8 +283,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__diez {
     background-image: url(/assets/images/zapatos10.webp);
     background-size: cover;
-    width: 70vw;
-    height: 44vh;
+    width: 300px;
+    height: 50vh;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -316,13 +328,12 @@ main .segunda__maquetacion {
         height: 67px;
         width: 40vw;
         position: absolute;
-        right: 0vw;
         animation-name: mianimacion;
         animation-duration: 15s;
         animation-iteration-count: infinite; }
   @keyframes mianimacion {
     from {
-      right: -10vw; }
+      right: 0vw; }
     to {
       right: 100vw; } }
     main .maquetacion {
@@ -360,8 +371,11 @@ main .segunda__maquetacion {
         height: 70%;
         width: 40%;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center; }
+        main .maquetacion .segunda__maquetacion .button {
+          margin-bottom: 5%;
+          font-size: 1em; }
     main .maquetacion__abajo {
       display: flex;
       justify-content: center;
@@ -385,9 +399,99 @@ main .segunda__maquetacion {
             filter: brightness(1.05); } }
 
 footer {
-  height: 150px;
+  height: 100%;
   width: 100%;
-  background-color: #999; }
+  padding: 10px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px inset #000; }
+  footer form p {
+    text-align: center; }
+  footer form .suscripcion {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px; }
+    footer form .suscripcion h2 {
+      font-size: 1em; }
+    footer form .suscripcion .submit {
+      height: 30px;
+      width: 150px;
+      background-color: #25d366; }
+    footer form .suscripcion h2 {
+      margin-bottom: 10px; }
+      footer form .suscripcion h2 p {
+        text-align: center; }
+  footer form h3 {
+    font-size: 1em;
+    margin-bottom: 5px; }
+  footer .ayuda__informativa .mi__cuenta {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; }
+    footer .ayuda__informativa .mi__cuenta h3 {
+      font-size: 0.8em; }
+      footer .ayuda__informativa .mi__cuenta h3:hover {
+        color: #565656;
+        cursor: pointer; }
+  footer .ayuda__informativa .preguntas__frecuentes h3 {
+    font-size: 0.8em; }
+    footer .ayuda__informativa .preguntas__frecuentes h3:hover {
+      color: #565656;
+      cursor: pointer; }
+  footer .ayuda__informativa .contacto {
+    align-items: start;
+    margin: 0px 20px 0px 20px; }
+    footer .ayuda__informativa .contacto .email {
+      display: flex;
+      padding-bottom: 5px; }
+    footer .ayuda__informativa .contacto .whatsapp a {
+      display: flex;
+      color: #25d366; }
+
+@media (min-width: 576px) {
+  footer {
+    display: flex;
+    flex-direction: column; }
+    footer form .suscripcion {
+      display: flex;
+      background-color: #565656; }
+      footer form .suscripcion .izquierda {
+        background-color: red; }
+    footer .ayuda__informativa {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 10px 0px 50px; } }
+
+@media (min-width: 992px) {
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start; }
+    footer h3 {
+      font-size: 0.9em;
+      margin-bottom: 10px; }
+    footer form .suscripcion {
+      display: flex;
+      flex-direction: row;
+      border: 0; }
+      footer form .suscripcion textarea {
+        resize: none; }
+    footer .ayuda__informativa {
+      margin: 0; }
+      footer .ayuda__informativa .mi__cuenta {
+        display: flex;
+        flex-direction: column; }
+        footer .ayuda__informativa .mi__cuenta h2 {
+          text-align: center; }
+      footer .ayuda__informativa .whatsapp a {
+        display: flex;
+        color: #25d366; } }
 
 header {
   width: 100%; }
