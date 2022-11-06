@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="derecho">
-                    <a href="#inicio" target="_blank">
+                    <a href="#inicio">
                         <p class="iniciar__sesion">Iniciar Sesión</p>
                         <div class="logo">
                             <i class="fa-solid fa-user"></i>
@@ -42,7 +42,7 @@
                 />
             </div>
 
-            <nav class="nav__abajo__visible">
+            <nav class="nav__abajo">
                 <ul>
                     <li class="nav__lista">
                         <a href="../index.html">
@@ -64,7 +64,7 @@
                             <p>Outlet</p>
                         </a>
                     </li>
-                    <li class="nav__lista">
+                    <li class="nav__lista nav__lista__desaparecido">
                         <div class="buscador">
                             <input
                                 type="text" id="busca" name="buscador" placeholder="Escribi tu busqueda"/>
@@ -78,97 +78,97 @@
         </header>
 
         <main class="main__sesion">
-                <section>
-                    <form>
-                        <label for="nombres" >Nombres</label>
-                        <input type="text" id="nombres" name="nombres" placeholder="Escribe tu nombre:" autofocus>
-                        <br>
-                        <label for="apellidos">Apellido</label>
-                        <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus Apellidos:">
-                        <br>
-                        <label for="country">Pais</label>
-                        <select id="country" name="country">
-                            <option value="argentina">Argentina</option>
-                            <option value="chile">Chile</option>
-                            <option value="Brasil">Brasil</option>
-                        </select>
-                        <br>
-                        <label for="name">Dudas</label>
-                        <br>
-                        <textarea id="name" name="name" rows="4" cols="50" maxlength="200">Escribe tus dudas , seras respondido en 24 hs habiles (144letras)
-                        </textarea>
-                        <br>
-                        <label for="direccion">Direccion de envio</label>
-                        <input type="text" name="direccion" id="direccion" autocomplete="street-address">
-                        <input type="submit" value="Submit">
+            <div class="fondo">
+                <div class="card__sesion">
+                    <form >
+
                     </form>
                 </div>
-            </section>
+            </div>
         </main>
 
         <footer>
-            <form >
+            <form>
+                <h2>
+                    <p>
+                        Suscribite a nuestro Diario informativo <br> y enterate
+                        antes que nadie de las nuevas  importaciones!!!!
+                    </p>
+                </h2>
                 <div class="suscripcion">
-                    <h2>
-                        <p>
-                            Suscribite a nuestro Diario informativo y enterate 
-                            <br>
-                            antes que nadie de las nuevas  importaciones!!!!
-                        </p>
-                    </h2>
-                    <label class="genero" ></label>
-                        <input type="radio" name="genero" id="genero" value="masculino"required>Masculino
-                        <br>
-                        <input type="radio" name="genero" id="genero" value="femenino" required>Femenino
-                        <br>
-                        <input type="radio" name="genero" id="genero" value="singenero" required>Sin genero especifico
-                        <br>
-                        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre:" required>
-                        <label for="nombre" >Nombre
-                            <div class="mensaje">
-                                <i class="fa-solid fa-envelope"></i>
+                    <div class="izquierda">
+                        <h3>genero</h3>
+                        <div>
+                            <label for="genero">Masculino</label>
+                            <input type="radio" name="genero" id="genero" value="masculino"required>
+                        </div>
+                        <div>
+                            <label for="genero-f">Femenino</label>
+                            <input type="radio" name="genero" id="genero-f" value="femenino" required>
+                        </div>
+                        <div>
+                            <label for="genero-sg">Sin genero</label>
+                            <input type="radio" name="genero" id="genero-sg" value="singenero" required>
+                        </div>
+                            <div>
+                                <label for="nombre" >Nombre
+                                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre:" required>   
+                                </label>
                             </div>
-                        </label>
-                        <label for="email" >Email</label>
-                        <input type="email" placeholder="Ingrese su email:" name="email"  id="email" required>
-                    <p>Estoy de acuerdo con <a href="#">Terminos y servicios</a></p>
-                    <input type="submit" value="submit">
-                </form>
-            </div>
-        </section>
-                <div class="mi__cuenta">
-                    <h2>Mi cuenta</h2>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Mis datos personales</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Mis direcciones</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Mis pedidos</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Mis cupones</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Devolver mi compra </h3>
-                    
-                </div>
-                <div class="preguntas__frecuentes">
-                    <h2>Preguntas frecuentes</h2>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Como comprar</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Formas de Pago</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Metodo de envio</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Cambios y devoluciones</h3>
-                    <h3><i class="fa-solid fa-chevron-right"></i>Tabla de talles</h3>
-                </div>
-                <div class="contacto">
-                    <h2>Contacto</h2>
-                    <div class="email">
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:arceprogramando@gmail.com">arceprogramando@gmail.com</a>
+                        </div>
+                    <div class="derecha">
+                        <div class="arriba">
+
+                            <label for="email" >Email
+                                <span>
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="abajo">
+                            <input type="email" placeholder="Ingrese su email:" name="email"  id="email" required>
+                            <p>Estoy de acuerdo con <a href="#">Terminos y servicios</a></p>
+                            <input type="submit" value="Enviar" class="submit">
+                        </div>
                     </div>
-                    <div class="whatsapp">
-                        <a
-                        href="https://wa.me/5491150990913?text=Holaa!%20me%20gustaria%20un%20presupuesto%20de%20tu%20trabajo%20desarrollando%20paginas%20web%20!!!!"
-                        target="_blank"
-                        >
+                </div>
+                </form>
+        </section>
+
+        <div class="ayuda__informativa">
+
+            <div class="mi__cuenta">
+                <h2>Mi cuenta</h2>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis datos personales</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis direcciones</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis pedidos</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Mis cupones</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Devolver mi compra </h3>
+            </div>
+            <div class="preguntas__frecuentes">
+                <h2>Preguntas frecuentes</h2>
+                <h3><i class="fa-solid fa-chevron-right"></i>Como comprar</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Formas de Pago</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Metodo de envio</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Cambios y devoluciones</h3>
+                <h3><i class="fa-solid fa-chevron-right"></i>Tabla de talles</h3>
+            </div>
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:arceprogramando@gmail.com">arceprogramando@gmail.com</a>
+                </div>
+                
+                <div class="whatsapp">
+                    <a href="https://wa.me/5491150990913?text=Holaa!%20me%20gustaria%20un%20presupuesto%20de%20tu%20trabajo%20desarrollando%20paginas%20web%20!!!!"target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                         <p class="numero__whatsapp">+5491150990913</p>
                     </a>
                 </div>
+                </div>
             </div>
+        </div>
     </div>
 </footer>
 </html>

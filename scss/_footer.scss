@@ -8,6 +8,9 @@ footer {
     align-items: center;
     border-top: 1px inset $colorNegro;
     form {
+        h2{
+            margin-right: 20px;
+        }
         p {
             text-align: center;
         }
@@ -122,9 +125,17 @@ footer {
                 display: flex;
                 flex-direction: row;
                 border: 0;
-                
                 textarea {
                     resize: none;
+                }
+            }
+            .derecha{
+                .abajo{
+                    .submit{
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }

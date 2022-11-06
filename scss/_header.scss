@@ -42,7 +42,18 @@ header {
         height: 120px;
     }
     .nav__abajo {
-        display: none;
+        border-top: 1px solid #333333;
+        .nav__lista{
+            padding: 20px;
+            
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+        .nav__lista__desaparecido{
+            display: none;
+        }
     }
 }
 
@@ -92,6 +103,7 @@ header {
         .nav__abajo {
             display: block;
             border-top: 1px solid #333333;
+            
             ul {
                 display: flex;
                 justify-content: center;
@@ -100,6 +112,7 @@ header {
                 font-size: 1em;
                 padding: 30px;
                 display: flex;
+                
                 .fa-solid {
                     font-size: 0.7em;
                 }
