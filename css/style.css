@@ -195,7 +195,7 @@ main .segunda__maquetacion {
   align-items: center;
   margin-bottom: 50px; }
   .card__contenedor .card__uno {
-    background-image: url(/assets/images/zapatos1.webp);
+    background-image: url(../assets/images/zapatos1.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -207,7 +207,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__dos {
-    background-image: url(/assets/images/zapatos2.webp);
+    background-image: url(../assets/images/zapatos2.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -219,7 +219,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__tres {
-    background-image: url(/assets/images/zapatos3.webp);
+    background-image: url(../assets/images/zapatos3.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -231,7 +231,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__cuatro {
-    background-image: url(/assets/images/zapatos4.webp);
+    background-image: url(../assets/images/zapatos4.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -243,7 +243,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__cinco {
-    background-image: url(/assets/images/zapatos5.webp);
+    background-image: url(../assets/images/zapatos5.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -255,7 +255,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__seis {
-    background-image: url(/assets/images/zapatos6.webp);
+    background-image: url(../assets/images/zapatos6.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -267,7 +267,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__siete {
-    background-image: url(/assets/images/zapatos7.webp);
+    background-image: url(../assets/images/zapatos7.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -279,7 +279,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__ocho {
-    background-image: url(/assets/images/zapatos8.webp);
+    background-image: url(../assets/images/zapatos8.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -291,7 +291,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__nueve {
-    background-image: url(/assets/images/zapatos9.webp);
+    background-image: url(../assets/images/zapatos9.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -303,7 +303,7 @@ main .segunda__maquetacion {
     flex-direction: column;
     justify-content: space-between; }
   .card__contenedor .card__diez {
-    background-image: url(/assets/images/zapatos10.webp);
+    background-image: url(../assets/images/zapatos10.webp);
     background-size: cover;
     width: 300px;
     height: 400px;
