@@ -94,7 +94,37 @@ main {
         height: 60px;
     }
 }
-
+.maquetacion__abajo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .card {
+        height: 300px;
+        width: 210px;
+        .parrafo__card {
+            p {
+                text-shadow: 1px 1px 1px #000,
+                    0px 14px 10px rgba(0, 0, 0, 0.15),
+                    0px 24px 2px rgba(0, 0, 0, 0.1),
+                    0px 34px 30px rgba(0, 0, 0, 0.1);
+            }
+        }
+        button {
+            background-color: $colorCuatro;
+            color: #000;
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 10%;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            &:hover{
+                filter: brightness(1.05);
+            }
+        }
+    }
+}
 .card__contenedor {
     display: flex;
     justify-content: center;
