@@ -1,29 +1,35 @@
 .card__sesion {
+    img{
+        display: none;
+    }
     margin-top: 20px;
-    height: 80vh;
+    height: 100%;
     width: 100%;
-    // background: rgb(249, 159, 169);
-    // background: linear-gradient(
-    //     90deg,
-    //     rgba(249, 159, 169, 1) 0%,
-    //     rgba(170, 101, 129, 1) 35%,
-    //     rgba(80, 56, 80, 1) 100%
-    // );
     display: flex;
     justify-content: center;
     align-items: start;
     .card{
         height: 500px;
         width: 320px;
-        background: rgb(249,159,169);
-        background: linear-gradient(270deg, rgba(249,159,169,1) 0%, rgba(170,101,129,1) 35%, rgba(80,56,80,1) 100%);
+        background: rgb(255,197,193);
+        background: linear-gradient(270deg, rgba(255,197,193,0.9136029411764706) 6%, rgba(249,159,169,0.9023984593837535) 50%, rgba(170,101,129,0.938813025210084) 75%, rgba(80,56,80,0.9556197478991597) 100%);
         border-radius: 5%;
         text-align: center;
+        .card__noticia{
+            img{
+                display: none;
+            }
+        }
         form{
             display:flex;
             flex-direction: column;
             justify-content: end;
             text-align: center;
+            label{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
             input{
                 width: 200px;
                 height: 50px;
@@ -36,19 +42,45 @@
         h2{
             font-size: 3em;
             margin-bottom: 30px;
+            margin-top: 20px;
         }
         h3{
+
             font-size: 1.5em;
             margin-bottom: 30px;
         }
-        button{
-            width: 100px;
-            height: 60px;
-
+        .boton{
+            button{
+                width: 120px;
+                height: 60px;
+                background-color: $colorWhatsapp;
+                border-radius: 20px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
         }
+        
     }
 }
 
-@media (min-widht: 768px) {
-
+@media (min-width: 768px) {
+    main{
+        .card__sesion{
+            
+            .card{
+                width: 800px;
+                background: rgb(255,197,193);
+                background: linear-gradient(270deg, rgba(255,197,193,0.4654236694677871) 6%, rgba(249,159,169,0.7954545454545454) 50%, rgba(170,101,129,0.7808441558441559) 75%, rgba(80,56,80,0.7987012987012987) 100%);
+            }
+            .card__noticia{
+                img{
+                    display: block;
+                    height: 550px;
+                    width: 400px ;
+                    border-radius: 5%;
+                }
+            }
+        }
+    }
 }

@@ -544,23 +544,29 @@ footer {
 
 .card__sesion {
   margin-top: 20px;
-  height: 80vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: start; }
+  .card__sesion img {
+    display: none; }
   .card__sesion .card {
     height: 500px;
     width: 320px;
-    background: #f99fa9;
-    background: linear-gradient(270deg, #f99fa9 0%, #aa6581 35%, #503850 100%);
+    background: #ffc5c1;
+    background: linear-gradient(270deg, rgba(255, 197, 193, 0.913603) 6%, rgba(249, 159, 169, 0.902398) 50%, rgba(170, 101, 129, 0.938813) 75%, rgba(80, 56, 80, 0.95562) 100%);
     border-radius: 5%;
     text-align: center; }
+    .card__sesion .card .card__noticia img {
+      display: none; }
     .card__sesion .card form {
       display: flex;
       flex-direction: column;
       justify-content: end;
       text-align: center; }
+      .card__sesion .card form label:hover {
+        cursor: pointer; }
       .card__sesion .card form input {
         width: 200px;
         height: 50px;
@@ -569,10 +575,26 @@ footer {
         text-align: center; }
     .card__sesion .card h2 {
       font-size: 3em;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      margin-top: 20px; }
     .card__sesion .card h3 {
       font-size: 1.5em;
       margin-bottom: 30px; }
-    .card__sesion .card button {
-      width: 100px;
-      height: 60px; }
+    .card__sesion .card .boton button {
+      width: 120px;
+      height: 60px;
+      background-color: #25d366;
+      border-radius: 20px; }
+      .card__sesion .card .boton button:hover {
+        cursor: pointer; }
+
+@media (min-width: 768px) {
+  main .card__sesion .card {
+    width: 800px;
+    background: #ffc5c1;
+    background: linear-gradient(270deg, rgba(255, 197, 193, 0.465424) 6%, rgba(249, 159, 169, 0.795455) 50%, rgba(170, 101, 129, 0.780844) 75%, rgba(80, 56, 80, 0.798701) 100%); }
+  main .card__sesion .card__noticia img {
+    display: block;
+    height: 550px;
+    width: 400px;
+    border-radius: 5%; } }
