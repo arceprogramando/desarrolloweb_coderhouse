@@ -8,50 +8,48 @@ footer {
     align-items: center;
     border-top: 1px inset $colorNegro;
     form {
-        p{
+        p {
             text-align: center;
         }
         .suscripcion {
-           
             height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             border-bottom: 1px solid $colorNegro;
-            
+
             padding: 20px;
             h2 {
                 font-size: 1em;
             }
-            .submit{
+            .submit {
                 height: 30px;
                 width: 150px;
                 background-color: $colorWhatsapp;
-                
             }
-        h2 {
-            margin-bottom: 10px;
-            p {
-                text-align: center;
+            h2 {
+                margin-bottom: 10px;
+                p {
+                    text-align: center;
+                }
             }
         }
+        h3 {
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
     }
-    h3 {
-        font-size: 1em;
-        margin-bottom: 5px;
-    }
-    }
-    .ayuda__informativa{
+    .ayuda__informativa {
         .mi__cuenta {
             display: flex;
             flex-direction: column;
             margin-right: 20px;
-    
+
             h3 {
                 font-size: 0.8em;
                 &:hover {
                     color: #565656;
-    
+
                     cursor: pointer;
                 }
             }
@@ -61,7 +59,7 @@ footer {
                 font-size: 0.8em;
                 &:hover {
                     color: #565656;
-    
+
                     cursor: pointer;
                 }
             }
@@ -81,28 +79,25 @@ footer {
             }
         }
     }
-    
 }
 
 @media (min-width: 576px) {
     footer {
         display: flex;
         flex-direction: column;
-        form{
-            .suscripcion{
+        form {
+            .suscripcion {
                 margin-left: 20px;
                 display: flex;
-                flex-direction: row; 
-                padding: 0;               
-                .derecha{
+                flex-direction: row;
+                padding: 0;
+                .derecha {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     text-align: center;
                 }
-                
             }
-
         }
         .ayuda__informativa {
             display: flex;
@@ -122,7 +117,7 @@ footer {
             font-size: 0.9em;
             margin-bottom: 10px;
         }
-        form{
+        form {
             .suscripcion {
                 display: flex;
                 flex-direction: row;
@@ -142,10 +137,10 @@ footer {
                     text-align: center;
                 }
             }
-                .whatsapp {
-                    a {
-                        display: flex;
-                        color: $colorWhatsapp;
+            .whatsapp {
+                a {
+                    display: flex;
+                    color: $colorWhatsapp;
                 }
             }
         }
