@@ -12,7 +12,7 @@ header {
   header .nav__superior {
     height: 65px;
     width: 100%;
-    background-color: #333;
+    background-color: #2a1e1e;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -27,14 +27,16 @@ header {
     header .nav__superior .derecho a .logo .fa-solid {
       font-size: 2.5em;
       margin-right: 30px;
-      color: #eccac2; }
+      color: #ffc5c1; }
   header .nav__medio {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 120px; }
   header .nav__abajo {
-    border-top: 1px solid #333333; }
+    border-top: 1px solid #2a1e1e; }
+    header .nav__abajo i {
+      color: #2a1e1e; }
     header .nav__abajo .nav__lista {
       padding: 20px; }
     header .nav__abajo ul {
@@ -54,11 +56,11 @@ header {
         margin-right: 10px; }
     header .nav__superior .izquierdo p {
       display: block;
-      color: #eccac2;
+      color: #ffc5c1;
       font-size: 0.9em; }
     header .nav__superior .derecho a .iniciar__sesion {
       display: block;
-      color: #eccac2;
+      color: #ffc5c1;
       font-size: 1.5em;
       margin-right: 15px; }
     header .nav__superior .derecho a .logo {
@@ -73,7 +75,10 @@ header {
       height: 120px; }
   header .nav__abajo {
     display: block;
-    border-top: 1px solid #333333; }
+    border-top: 1px solid #2a1e1e; }
+    header .nav__abajo p {
+      color: #503850;
+      font-size: 1.2em; }
     header .nav__abajo ul {
       display: flex;
       justify-content: center; }
@@ -81,11 +86,13 @@ header {
       font-size: 1em;
       padding: 30px;
       display: flex; }
+      header .nav__abajo .nav__lista .nav__lista__desaparecido .buscador {
+        display: block; }
       header .nav__abajo .nav__lista .fa-solid {
         font-size: 0.7em; }
       header .nav__abajo .nav__lista a {
         display: flex;
-        color: #333333;
+        color: #2a1e1e;
         align-items: center; }
       header .nav__abajo .nav__lista .buscador {
         font-size: 1.1em;
@@ -154,12 +161,13 @@ main {
     text-align: center;
     transition: 10s; }
     main .segunda__maquetacion i {
-      color: #eb9389;
+      color: #503850;
       margin-bottom: 25px;
       font-size: 1.5em; }
     main .segunda__maquetacion:hover {
       background-image: url(../assets/images/zapatos2.webp);
-      background-size: cover; }
+      background-size: cover;
+      cursor: pointer; }
     main .segunda__maquetacion p {
       justify-content: center;
       align-items: center;
@@ -185,7 +193,7 @@ main {
       background-color: #eb93895a;
       color: #000;
       border: none;
-      color: white;
+      color: #fff;
       padding: 10px 25px;
       border-radius: 10%;
       text-decoration: none;
@@ -193,7 +201,7 @@ main {
       cursor: pointer; }
       .maquetacion__abajo .card button:hover {
         filter: brightness(1.05);
-        background-color: #eb9389; }
+        background-color: #503850; }
 
 .card__contenedor {
   display: flex;
@@ -336,7 +344,7 @@ main {
 
 @media (min-width: 768px) {
   main {
-    border-top: 1px solid #333; }
+    border-top: 1px solid #ffc5c1; }
     main .guias {
       display: flex;
       font-size: 0.8em;
@@ -348,7 +356,7 @@ main {
           font-size: 1.07em;
           cursor: pointer; }
     main .descuentos {
-      background-color: #eb9389;
+      background-color: #EB9389;
       height: 70px;
       width: 100%;
       align-items: center;
@@ -419,7 +427,7 @@ main {
           background-color: #eb93895a;
           color: #000;
           border: none;
-          color: white;
+          color: #fff;
           padding: 10px 25px;
           border-radius: 10%;
           text-decoration: none;
@@ -427,7 +435,7 @@ main {
           cursor: pointer; }
           main .maquetacion__abajo .card button:hover {
             filter: brightness(1.05);
-            background-color: #eb9389; } }
+            background-color: #503850; } }
 
 footer {
   height: 100%;
@@ -533,6 +541,24 @@ footer {
         display: flex;
         color: #25d366; } }
 
-.main__sesion {
-  background-color: red;
-  height: 100vh; }
+.card__sesion {
+  height: 80vh;
+  width: 100%;
+  background: #f99fa9;
+  background: linear-gradient(90deg, #f99fa9 0%, #aa6581 35%, #503850 100%);
+  display: flex;
+  justify-content: center;
+  align-items: start; }
+  .card__sesion .card {
+    height: 350px;
+    width: 250px;
+    background: #f99fa9;
+    background: linear-gradient(270deg, #f99fa9 0%, #aa6581 35%, #503850 100%);
+    border-radius: 5%;
+    text-align: center; }
+    .card__sesion .card h3 {
+      font-size: 3em;
+      margin-bottom: 30px; }
+    .card__sesion .card input {
+      width: 200px;
+      height: 50px; }

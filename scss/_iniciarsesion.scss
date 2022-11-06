@@ -1,9 +1,34 @@
-
-
-.main__sesion{
-    background-color: red;
-    height: 100vh;
+.card__sesion {
+    height: 80vh;
+    width: 100%;
+    background: rgb(249, 159, 169);
+    background: linear-gradient(
+        90deg,
+        rgba(249, 159, 169, 1) 0%,
+        rgba(170, 101, 129, 1) 35%,
+        rgba(80, 56, 80, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    .card{
+        height: 350px;
+        width: 250px;
+        background: rgb(249,159,169);
+        background: linear-gradient(270deg, rgba(249,159,169,1) 0%, rgba(170,101,129,1) 35%, rgba(80,56,80,1) 100%);
+        border-radius: 5%;
+        text-align: center;
+        h3{
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+        input{
+            width: 200px;
+            height: 50px;
+        }
+    }
 }
-@media (min-widht:768px){
-    
+
+@media (min-widht: 768px) {
+
 }

@@ -1,10 +1,10 @@
-@import '_variables.scss';
+@import "_variables.scss";
 header {
     width: 100%;
     .nav__superior {
         height: 65px;
         width: 100%;
-        background-color: #333;
+        background-color: $colorCinco;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -15,7 +15,7 @@ header {
             a {
                 .fa-brands {
                     font-size: 3em;
-                    color:$colorWhatsapp;
+                    color: $colorWhatsapp;
                     margin-left: 30px;
                 }
             }
@@ -29,7 +29,7 @@ header {
                     .fa-solid {
                         font-size: 2.5em;
                         margin-right: 30px;
-                        color: $colorTres;
+                        color: $colorUno;
                     }
                 }
             }
@@ -42,17 +42,20 @@ header {
         height: 120px;
     }
     .nav__abajo {
-        border-top: 1px solid #333333;
-        .nav__lista{
+        border-top: 1px solid $colorCinco;
+        i{
+            color: $colorCinco;
+        }
+        
+        .nav__lista {
             padding: 20px;
-            
         }
         ul {
             display: flex;
             justify-content: center;
         }
-        .nav__lista__desaparecido{
-            display: none;
+        .nav__lista__desaparecido {
+           display: none;
         }
     }
 }
@@ -72,7 +75,7 @@ header {
                 }
                 p {
                     display: block;
-                    color: $colorTres;
+                    color: $colorUno;
                     font-size: 0.9em;
                 }
             }
@@ -80,7 +83,7 @@ header {
                 a {
                     .iniciar__sesion {
                         display: block;
-                        color: $colorTres;
+                        color: $colorUno;
                         font-size: 1.5em;
                         margin-right: 15px;
                     }
@@ -102,8 +105,12 @@ header {
         }
         .nav__abajo {
             display: block;
-            border-top: 1px solid #333333;
-            
+            border-top: 1px solid $colorCinco;
+           
+            p{
+                color: $colorCuatro;
+                font-size: 1.2em;
+            }
             ul {
                 display: flex;
                 justify-content: center;
@@ -112,13 +119,18 @@ header {
                 font-size: 1em;
                 padding: 30px;
                 display: flex;
-                
+                .nav__lista__desaparecido{
+                    .buscador{
+                        display: block;
+                    }
+                }
+
                 .fa-solid {
                     font-size: 0.7em;
                 }
                 a {
                     display: flex;
-                    color: #333333;
+                    color: $colorCinco;
                     align-items: center;
                 }
                 .buscador {

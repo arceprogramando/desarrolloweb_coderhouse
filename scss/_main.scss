@@ -6,7 +6,7 @@ main {
         .marcador {
             padding: 0px 5px 5px 5px;
             &:hover {
-                color: #565656;
+                color: $colorHover;
                 font-size: 1.07em;
                 cursor: pointer;
             }
@@ -31,23 +31,23 @@ main {
             align-items: center;
             .parrafo {
                 font-family: "Raleway", sans-serif;
-                -webkit-text-stroke: #fff 1px;
-                color: #000;
+                -webkit-text-stroke: $colorBlanco 1px;
+                color: $colorNegro;
                 font-size: 2em;
             }
             .button {
                 font-family: "Raleway", sans-serif;
-                -webkit-text-stroke: #fff 1px;
-                color: #000;
+                -webkit-text-stroke: $colorBlanco 1px;
+                color: $colorNegro;
                 font-size: 2em;
                 margin-bottom: 5%;
                 &:hover {
                     cursor: pointer;
-                    color: #565656;
+                    color: $colorHover;
                     font-size: 1.9em;
                 }
                 p {
-                    color: #fff;
+                    color: $colorBlanco;
                     -webkit-text-stroke: $colorNegro 2px;
                 }
             }
@@ -67,7 +67,7 @@ main {
         justify-content: end;
         text-align: center;
         transition: 10s;
-        i{
+        i {
             color: $colorCuatro;
             margin-bottom: 25px;
             font-size: 1.5em;
@@ -76,20 +76,21 @@ main {
         &:hover {
             background-image: url(../assets/images/zapatos2.webp);
             background-size: cover;
+            cursor: pointer;
         }
         p {
             justify-content: center;
             align-items: center;
             font-family: "Raleway", sans-serif;
-            -webkit-text-stroke: #fff 1px;
-            color: #000;
-            font-size: 1.33em; 
+            -webkit-text-stroke: $colorBlanco 1px;
+            color: $colorNegro;
+            font-size: 1.33em;
         }
-        
     }
 }
 
 .descuentos {
+    
     img {
         width: 100%;
         height: 60px;
@@ -104,23 +105,22 @@ main {
         width: 210px;
         .parrafo__card {
             p {
-                text-shadow: 1px 1px 1px #000,
-                    0px 14px 10px rgba(0, 0, 0, 0.15),
+                text-shadow: 1px 1px 1px $colorNegro, 0px 14px 10px rgba(0, 0, 0, 0.15),
                     0px 24px 2px rgba(0, 0, 0, 0.1),
                     0px 34px 30px rgba(0, 0, 0, 0.1);
             }
         }
         button {
             background-color: $colorCuatroTransparente;
-            color: #000;
+            color: $colorNegro;
             border: none;
-            color: white;
+            color: $colorBlanco;
             padding: 10px 25px;
             border-radius: 10%;
             text-decoration: none;
             margin: 4px 2px;
             cursor: pointer;
-            &:hover{
+            &:hover {
                 filter: brightness(1.05);
                 background-color: $colorCuatro;
             }
@@ -134,11 +134,10 @@ main {
     text-align: center;
     align-items: center;
     margin-bottom: 50px;
-    
+
     .card__uno {
         background-image: url(../assets/images/zapatos1.webp);
         @include card;
-        
     }
     .card__dos {
         background-image: url(../assets/images/zapatos2.webp);
@@ -190,8 +189,6 @@ main {
             color: #fff;
         }
     }
-
-
 }
 
 @media (min-width: 768px) {
@@ -211,7 +208,7 @@ main {
             }
         }
         .descuentos {
-            background-color: $colorCuatro;
+            background-color: $colorDescuentos;
             height: 70px;
             width: 100%;
             align-items: center;
@@ -250,18 +247,18 @@ main {
                     font-size: 1.8em;
                     &:hover {
                         cursor: pointer;
-                        color: #565656;
+                        color: $colorHover;
                         font-size: 1.9em;
                     }
                     p {
-                        color: #fff;
+                        color: $colorBlanco;
                         -webkit-text-stroke: $colorNegro 2px;
                     }
                 }
                 .parrafo {
                     @include parrafo;
                     p {
-                        color: #fff;
+                        color: $colorBlanco;
                     }
                 }
             }
@@ -271,7 +268,7 @@ main {
                 display: flex;
                 justify-content: end;
                 align-items: center;
-                .button{
+                .button {
                     margin-bottom: 5%;
                     font-size: 1em;
                 }
@@ -286,7 +283,7 @@ main {
                 width: 210px;
                 .parrafo__card {
                     p {
-                        text-shadow: 1px 1px 1px #000,
+                        text-shadow: 1px 1px 1px $colorNegro,
                             0px 14px 10px rgba(0, 0, 0, 0.15),
                             0px 24px 2px rgba(0, 0, 0, 0.1),
                             0px 34px 30px rgba(0, 0, 0, 0.1);
@@ -294,15 +291,15 @@ main {
                 }
                 button {
                     background-color: $colorCuatroTransparente;
-                    color: #000;
+                    color: $colorNegro;
                     border: none;
-                    color: white;
+                    color: $colorBlanco;
                     padding: 10px 25px;
                     border-radius: 10%;
                     text-decoration: none;
                     margin: 4px 2px;
                     cursor: pointer;
-                    &:hover{
+                    &:hover {
                         filter: brightness(1.05);
                         background-color: $colorCuatro;
                     }
