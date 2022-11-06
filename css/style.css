@@ -544,8 +544,6 @@ footer {
 .card__sesion {
   height: 80vh;
   width: 100%;
-  background: #f99fa9;
-  background: linear-gradient(90deg, #f99fa9 0%, #aa6581 35%, #503850 100%);
   display: flex;
   justify-content: center;
   align-items: start; }
