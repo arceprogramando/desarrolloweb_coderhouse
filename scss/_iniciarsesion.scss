@@ -1,4 +1,5 @@
 .card__sesion {
+    margin-top: 20px;
     height: 80vh;
     width: 100%;
     // background: rgb(249, 159, 169);
@@ -12,19 +13,38 @@
     justify-content: center;
     align-items: start;
     .card{
-        height: 350px;
-        width: 250px;
+        height: 500px;
+        width: 320px;
         background: rgb(249,159,169);
         background: linear-gradient(270deg, rgba(249,159,169,1) 0%, rgba(170,101,129,1) 35%, rgba(80,56,80,1) 100%);
         border-radius: 5%;
         text-align: center;
-        h3{
+        form{
+            display:flex;
+            flex-direction: column;
+            justify-content: end;
+            text-align: center;
+            input{
+                width: 200px;
+                height: 50px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                
+            }
+        }
+        h2{
             font-size: 3em;
             margin-bottom: 30px;
         }
-        input{
-            width: 200px;
-            height: 50px;
+        h3{
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        button{
+            width: 100px;
+            height: 60px;
+
         }
     }
 }

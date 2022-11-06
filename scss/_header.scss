@@ -1,5 +1,6 @@
 @import "_variables.scss";
 header {
+    border-bottom:  1px solid $colorCuatro;
     width: 100%;
     .nav__superior {
         height: 65px;

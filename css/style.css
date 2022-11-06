@@ -8,6 +8,7 @@
     color: #333333; }
 
 header {
+  border-bottom: 1px solid #503850;
   width: 100%; }
   header .nav__superior {
     height: 65px;
@@ -100,81 +101,81 @@ header {
         header .nav__abajo .nav__lista .buscador label:hover {
           cursor: pointer; } }
 
-main {
-  border-top: 1px solid #000; }
-  main .guias {
-    display: flex;
-    user-select: none; }
-    main .guias .marcador {
-      padding: 0px 5px 5px 5px; }
-      main .guias .marcador:hover {
-        color: #565656;
-        font-size: 1.07em;
-        cursor: pointer; }
-  main .maquetacion {
-    gap: 1rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    main .maquetacion .primera__maquetacion {
-      height: 400px;
-      width: 90%;
-      background-image: url(../assets/images/zapatos1.webp);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: end;
-      align-items: center; }
-      main .maquetacion .primera__maquetacion .parrafo {
-        font-family: "Raleway", sans-serif;
-        -webkit-text-stroke: #fff 1px;
-        color: #000;
-        font-size: 2em; }
-      main .maquetacion .primera__maquetacion .button {
-        font-family: "Raleway", sans-serif;
-        -webkit-text-stroke: #fff 1px;
-        color: #000;
-        font-size: 2em;
-        margin-bottom: 5%; }
-        main .maquetacion .primera__maquetacion .button:hover {
-          cursor: pointer;
-          color: #565656;
-          font-size: 1.9em; }
-        main .maquetacion .primera__maquetacion .button p {
-          color: #fff;
-          -webkit-text-stroke: #000 2px; }
-  main .segunda__maquetacion {
+main .guias {
+  display: flex;
+  user-select: none; }
+  main .guias .marcador {
+    padding: 0px 5px 5px 5px; }
+    main .guias .marcador:hover {
+      color: #565656;
+      font-size: 1.07em;
+      cursor: pointer; }
+
+main .maquetacion {
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main .maquetacion .primera__maquetacion {
     height: 400px;
     width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../assets/images/watercolor.webp);
+    background-image: url(../assets/images/zapatos1.webp);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    text-align: center;
-    transition: 10s; }
-    main .segunda__maquetacion i {
-      color: #503850;
-      margin-bottom: 25px;
-      font-size: 1.5em; }
-    main .segunda__maquetacion:hover {
-      background-image: url(../assets/images/zapatos2.webp);
-      background-size: cover;
-      cursor: pointer; }
-    main .segunda__maquetacion p {
-      justify-content: center;
-      align-items: center;
+    align-items: center; }
+    main .maquetacion .primera__maquetacion .parrafo {
       font-family: "Raleway", sans-serif;
       -webkit-text-stroke: #fff 1px;
       color: #000;
-      font-size: 1.33em; }
+      font-size: 2em; }
+    main .maquetacion .primera__maquetacion .button {
+      font-family: "Raleway", sans-serif;
+      -webkit-text-stroke: #fff 1px;
+      color: #000;
+      font-size: 2em;
+      margin-bottom: 5%; }
+      main .maquetacion .primera__maquetacion .button:hover {
+        cursor: pointer;
+        color: #565656;
+        font-size: 1.9em; }
+      main .maquetacion .primera__maquetacion .button p {
+        color: #fff;
+        -webkit-text-stroke: #000 2px; }
+
+main .segunda__maquetacion {
+  height: 400px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/watercolor.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  transition: 10s; }
+  main .segunda__maquetacion i {
+    color: #503850;
+    margin-bottom: 25px;
+    font-size: 1.5em; }
+  main .segunda__maquetacion:hover {
+    background-image: url(../assets/images/zapatos2.webp);
+    background-size: cover;
+    cursor: pointer; }
+  main .segunda__maquetacion p {
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    -webkit-text-stroke: #fff 1px;
+    color: #000;
+    font-size: 1.33em; }
 
 .descuentos img {
   width: 100%;
@@ -343,103 +344,103 @@ main {
       color: #fff; }
 
 @media (min-width: 768px) {
-  main {
-    border-top: 1px solid #ffc5c1; }
-    main .guias {
-      display: flex;
-      font-size: 0.8em;
-      margin: 10px 0px 10px 0px; }
-      main .guias .marcador {
-        margin: 0px 5px 0px 5px; }
-        main .guias .marcador:hover {
-          color: #565656;
-          font-size: 1.07em;
-          cursor: pointer; }
-    main .descuentos {
-      background-color: #EB9389;
-      height: 70px;
-      width: 100%;
-      align-items: center;
-      position: relative;
-      margin-bottom: 20px; }
-      main .descuentos img {
-        height: 67px;
-        width: 40vw;
-        position: absolute;
-        animation-name: mianimacion;
-        animation-duration: 15s;
-        animation-iteration-count: infinite; }
+  main .guias {
+    display: flex;
+    font-size: 0.8em;
+    margin: 10px 0px 10px 0px; }
+    main .guias .marcador {
+      margin: 0px 5px 0px 5px; }
+      main .guias .marcador:hover {
+        color: #565656;
+        font-size: 1.07em;
+        cursor: pointer; }
+  main .descuentos {
+    background-color: #EB9389;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px; }
+    main .descuentos img {
+      height: 67px;
+      width: 40vw;
+      position: absolute;
+      animation-name: mianimacion;
+      animation-duration: 15s;
+      animation-iteration-count: infinite; }
   @keyframes mianimacion {
     from {
       right: 0vw; }
     to {
       right: 100vw; } }
-    main .maquetacion {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      height: 100vh; }
-      main .maquetacion .primera__maquetacion {
-        margin-left: 2.5%;
-        height: 100%;
-        width: 50%;
-        display: flex; }
-        main .maquetacion .primera__maquetacion .button {
-          margin-bottom: 5%;
-          font-family: "Raleway", sans-serif;
-          font-size: 2.5em;
-          font-weight: 600;
-          -webkit-text-stroke: #000 2px;
-          font-size: 1.8em; }
-          main .maquetacion .primera__maquetacion .button:hover {
-            cursor: pointer;
-            color: #565656;
-            font-size: 1.9em; }
-          main .maquetacion .primera__maquetacion .button p {
-            color: #fff;
-            -webkit-text-stroke: #000 2px; }
-        main .maquetacion .primera__maquetacion .parrafo {
-          font-family: "Raleway", sans-serif;
-          font-size: 2.5em;
-          font-weight: 600;
-          -webkit-text-stroke: #000 2px; }
-          main .maquetacion .primera__maquetacion .parrafo p {
-            color: #fff; }
-      main .maquetacion .segunda__maquetacion {
-        height: 500px;
-        width: 40%;
-        display: flex;
-        justify-content: end;
-        align-items: center; }
-        main .maquetacion .segunda__maquetacion .button {
-          margin-bottom: 5%;
-          font-size: 1em; }
-    main .maquetacion__abajo {
-      display: flex;
-      justify-content: center;
-      width: 100%; }
-      main .maquetacion__abajo .card {
-        height: 300px;
-        width: 210px; }
-        main .maquetacion__abajo .card .parrafo__card p {
-          text-shadow: 1px 1px 1px #000, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1); }
-        main .maquetacion__abajo .card button {
-          background-color: #eb93895a;
-          color: #000;
-          border: none;
+  main .maquetacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh; }
+    main .maquetacion .primera__maquetacion {
+      margin-left: 2.5%;
+      height: 100%;
+      width: 50%;
+      display: flex; }
+      main .maquetacion .primera__maquetacion .button {
+        margin-bottom: 5%;
+        font-family: "Raleway", sans-serif;
+        font-size: 2.5em;
+        font-weight: 600;
+        -webkit-text-stroke: #000 2px;
+        font-size: 1.8em; }
+        main .maquetacion .primera__maquetacion .button:hover {
+          cursor: pointer;
+          color: #565656;
+          font-size: 1.9em; }
+        main .maquetacion .primera__maquetacion .button p {
           color: #fff;
-          padding: 10px 25px;
-          border-radius: 10%;
-          text-decoration: none;
-          margin: 4px 2px;
-          cursor: pointer; }
-          main .maquetacion__abajo .card button:hover {
-            filter: brightness(1.05);
-            background-color: #503850; } }
+          -webkit-text-stroke: #000 2px; }
+      main .maquetacion .primera__maquetacion .parrafo {
+        font-family: "Raleway", sans-serif;
+        font-size: 2.5em;
+        font-weight: 600;
+        -webkit-text-stroke: #000 2px; }
+        main .maquetacion .primera__maquetacion .parrafo p {
+          color: #fff; }
+    main .maquetacion .segunda__maquetacion {
+      height: 500px;
+      width: 40%;
+      display: flex;
+      justify-content: end;
+      align-items: center; }
+      main .maquetacion .segunda__maquetacion .button {
+        margin-bottom: 5%;
+        font-size: 1em; }
+  main .maquetacion__abajo {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    main .maquetacion__abajo .card {
+      height: 300px;
+      width: 210px; }
+      main .maquetacion__abajo .card .parrafo__card p {
+        text-shadow: 1px 1px 1px #000, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1); }
+      main .maquetacion__abajo .card button {
+        background-color: #eb93895a;
+        color: #000;
+        border: none;
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 10%;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer; }
+        main .maquetacion__abajo .card button:hover {
+          filter: brightness(1.05);
+          background-color: #503850; } }
 
 footer {
+  margin-top: 70px;
   height: 100%;
   width: 100%;
+  position: sticky;
   padding: 10px 0px 20px 0px;
   display: flex;
   flex-direction: column;
@@ -542,21 +543,36 @@ footer {
         color: #25d366; } }
 
 .card__sesion {
+  margin-top: 20px;
   height: 80vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: start; }
   .card__sesion .card {
-    height: 350px;
-    width: 250px;
+    height: 500px;
+    width: 320px;
     background: #f99fa9;
     background: linear-gradient(270deg, #f99fa9 0%, #aa6581 35%, #503850 100%);
     border-radius: 5%;
     text-align: center; }
-    .card__sesion .card h3 {
+    .card__sesion .card form {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      text-align: center; }
+      .card__sesion .card form input {
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        text-align: center; }
+    .card__sesion .card h2 {
       font-size: 3em;
       margin-bottom: 30px; }
-    .card__sesion .card input {
-      width: 200px;
-      height: 50px; }
+    .card__sesion .card h3 {
+      font-size: 1.5em;
+      margin-bottom: 30px; }
+    .card__sesion .card button {
+      width: 100px;
+      height: 60px; }

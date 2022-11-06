@@ -1,5 +1,5 @@
 main {
-    border-top: 1px solid $colorNegro;
+    
     .guias {
         display: flex;
         user-select: none;
@@ -193,7 +193,6 @@ main {
 
 @media (min-width: 768px) {
     main {
-        border-top: 1px solid $colorUno;
         .guias {
             display: flex;
             font-size: 0.8em;

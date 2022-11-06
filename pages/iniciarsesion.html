@@ -85,13 +85,16 @@
 
                 <div class="card__sesion">
                     <div class="card">
-                        <h3>Bienvenido</h3>
+                        <h2>Bienvenido</h2>
+                        <h3>Ingrese a su Cuenta</h3>
                         <form >
                             <div class="input__email">
-                                <input type="email" placeholder="Ingrese su email:">
+                                <label for="emailsesion"><p>Email</p> <br></label>
+                                <input type="email" placeholder="Ingrese su email:" name="emailsesion"  id="emailsesion" required>
                             </div>
                             <div class="input__password">
-                                <input type="password" placeholder="Ingrese su contraseña:">
+                                <label for="password"><p>Contraseña</p><br></label>
+                                <input type="password" id="password" placeholder="Ingrese su contraseña:" required>
                             </div>
                             <div class="contraseña__olvidada">
                                 <a href="#">He olvidado mi contraseña</a>
