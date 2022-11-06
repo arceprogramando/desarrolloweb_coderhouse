@@ -440,7 +440,6 @@ footer {
   margin-top: 70px;
   height: 100%;
   width: 100%;
-  position: sticky;
   padding: 10px 0px 20px 0px;
   display: flex;
   flex-direction: column;
@@ -596,5 +595,67 @@ footer {
   main .card__sesion .card__noticia img {
     display: block;
     height: 550px;
+    width: 400px;
+    border-radius: 5%; } }
+
+.card__sucursales {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .card__sucursales img {
+    display: none; }
+  .card__sucursales h3 {
+    text-align: center; }
+  .card__sucursales .card {
+    height: 500px;
+    width: 320px;
+    background: #ffc5c1;
+    background: linear-gradient(270deg, rgba(255, 197, 193, 0.913603) 6%, rgba(249, 159, 169, 0.902398) 50%, rgba(170, 101, 129, 0.938813) 75%, rgba(80, 56, 80, 0.95562) 100%);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .card__sucursales .card .card__noticia img {
+      display: none; }
+    .card__sucursales .card form {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      text-align: center; }
+      .card__sucursales .card form label:hover {
+        cursor: pointer; }
+      .card__sucursales .card form input {
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        text-align: center; }
+    .card__sucursales .card h2 {
+      font-size: 3em;
+      margin-bottom: 30px;
+      margin-top: 20px; }
+    .card__sucursales .card h3 {
+      font-size: 1.5em;
+      margin-bottom: 30px; }
+    .card__sucursales .card .boton button {
+      width: 120px;
+      height: 60px;
+      background-color: #25d366;
+      border-radius: 20px; }
+      .card__sucursales .card .boton button:hover {
+        cursor: pointer; }
+
+@media (min-width: 768px) {
+  main .card__sucursales .card {
+    width: 500px;
+    background: #ffc5c1;
+    background: linear-gradient(270deg, rgba(255, 197, 193, 0.465424) 6%, rgba(249, 159, 169, 0.795455) 50%, rgba(170, 101, 129, 0.780844) 75%, rgba(80, 56, 80, 0.798701) 100%); }
+  main .card__sucursales .card__noticia img {
+    display: block;
+    height: 450px;
     width: 400px;
     border-radius: 5%; } }
