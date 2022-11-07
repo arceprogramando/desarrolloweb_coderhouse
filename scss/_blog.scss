@@ -1,0 +1,97 @@
+main{
+    
+    .card__blog{
+        background-image: url(../assets/images/portadablog.webp);
+        background-repeat: repeat;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        .card__separacion{
+            background-color: $colorCuatroTransparente;
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .card{
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .fortalezas{
+                @include card;
+                background-color: $colorUno;
+                text-align: center;
+                p{
+                    margin: 10px;
+                    font-size: 1.6em
+                }
+                border: 3px solid $colorWhatsapp
+            }
+            .oportunidades{
+                @include card;
+                background-color: $colorUno;
+                text-align: center;
+                p{
+                    margin: 10px;
+                    font-size: 1.6em
+                }
+                border: 3px solid $colorWhatsapp
+            }
+            .debilidades{
+                @include card;
+                background-color: $colorUno;
+                text-align: center;
+                p{
+                    margin: 10px;
+                    font-size: 1.6em
+                }
+                border: 3px solid $colorNegro;
+            }
+            .amenazas{
+                @include card;
+                background-color: $colorUno;
+                text-align: center;
+                p{
+                    margin: 10px;
+                    font-size: 1.6em
+                }
+                border: 3px solid $colorNegro;
+            }
+        }
+        .card__noticia{
+            img{
+                display: none;
+                height: 300px;   
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .card__blog{
+        background-color: red;
+        flex-direction: row;
+        padding-bottom: 20px;
+        .card__separacion{
+            padding-bottom: 20px;
+            .card{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+}
