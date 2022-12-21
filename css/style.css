@@ -8,7 +8,13 @@
 @media (min-width: 1440px) {
   .container {
     margin: 0 auto;
-    width: 1330px; } }
+    width: 80%; } }
+
+@media (max-width: 330px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: red; } }
 
 header {
   border-bottom: 1px solid #503850;
@@ -242,8 +248,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__dos {
     background-image: url(../assets/images/zapatos2.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -254,8 +260,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__tres {
     background-image: url(../assets/images/zapatos3.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -266,8 +272,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__cuatro {
     background-image: url(../assets/images/zapatos4.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -278,8 +284,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__cinco {
     background-image: url(../assets/images/zapatos5.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -290,8 +296,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__seis {
     background-image: url(../assets/images/zapatos6.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -302,8 +308,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__siete {
     background-image: url(../assets/images/zapatos7.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -314,8 +320,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__ocho {
     background-image: url(../assets/images/zapatos8.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -326,8 +332,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__nueve {
     background-image: url(../assets/images/zapatos9.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -338,8 +344,8 @@ main .segunda__maquetacion {
   .card__contenedor .card__diez {
     background-image: url(../assets/images/zapatos10.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -379,16 +385,16 @@ main .segunda__maquetacion {
     margin-bottom: 20px; }
     main .descuentos img {
       height: 67px;
-      width: 40vw;
+      width: 40%;
       position: absolute;
       animation-name: mianimacion;
-      animation-duration: 15s;
+      animation-duration: 10s;
       animation-iteration-count: infinite; }
   @keyframes mianimacion {
     from {
-      right: 0vw; }
+      right: 0%; }
     to {
-      right: 100vw; } }
+      right: 60%; } }
   main .maquetacion {
     display: flex;
     flex-direction: row;
@@ -705,8 +711,8 @@ main .card__blog {
       justify-content: center; }
     main .card__blog .card__separacion .fortalezas {
       background-size: cover;
-      width: 300px;
-      height: 400px;
+      width: 80%;
+      padding-bottom: 30px;
       margin: 10px;
       border-radius: 3%;
       border: 3px solid #000;
@@ -722,8 +728,8 @@ main .card__blog {
         font-size: 1.6em; }
     main .card__blog .card__separacion .oportunidades {
       background-size: cover;
-      width: 300px;
-      height: 400px;
+      width: 80%;
+      padding-bottom: 30px;
       margin: 10px;
       border-radius: 3%;
       border: 3px solid #000;
@@ -739,8 +745,8 @@ main .card__blog {
         font-size: 1.6em; }
     main .card__blog .card__separacion .debilidades {
       background-size: cover;
-      width: 300px;
-      height: 400px;
+      width: 80%;
+      padding-bottom: 30px;
       margin: 10px;
       border-radius: 3%;
       border: 3px solid #000;
@@ -756,8 +762,8 @@ main .card__blog {
         font-size: 1.6em; }
     main .card__blog .card__separacion .amenazas {
       background-size: cover;
-      width: 300px;
-      height: 400px;
+      width: 80%;
+      padding-bottom: 30px;
       margin: 10px;
       border-radius: 3%;
       border: 3px solid #000;
@@ -792,8 +798,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__uno {
     background-image: url(../assets/images/zapatos12.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -804,8 +810,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__dos {
     background-image: url(../assets/images/zapatos13.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -816,8 +822,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__tres {
     background-image: url(../assets/images/zapatos14.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -828,8 +834,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__cuatro {
     background-image: url(../assets/images/zapatos15.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -840,8 +846,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__cinco {
     background-image: url(../assets/images/zapatos16.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -852,8 +858,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__seis {
     background-image: url(../assets/images/zapatos17.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -864,8 +870,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__siete {
     background-image: url(../assets/images/zapatos18.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
@@ -876,8 +882,8 @@ main .card__blog {
   .maquetacion__outlet .card__contenedor .card__ocho {
     background-image: url(../assets/images/zapatos19.webp);
     background-size: cover;
-    width: 300px;
-    height: 400px;
+    width: 80%;
+    padding-bottom: 30px;
     margin: 10px;
     border-radius: 3%;
     border: 3px solid #000;
