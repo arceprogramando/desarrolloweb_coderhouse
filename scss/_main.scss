@@ -1,9 +1,7 @@
 main {
-
     .guias {
         display: flex;
         user-select: none;
-
         .marcador {
             padding: 0px 5px 5px 5px;
 
@@ -258,19 +256,19 @@ main {
 
             img {
                 height: 67px;
-                width: 40vw;
+                width: 40%;
                 position: absolute;
                 animation-name: mianimacion;
-                animation-duration: 15s;
+                animation-duration: 10s;
                 animation-iteration-count: infinite;
 
                 @keyframes mianimacion {
                     from {
-                        right: 0vw;
+                        right: 0%;
                     }
 
                     to {
-                        right: 100vw;
+                        right: 60%;
                     }
                 }
             }
