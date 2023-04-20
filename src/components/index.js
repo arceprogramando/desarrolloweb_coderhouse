@@ -15,7 +15,14 @@ export{
 */
 
 import Header from "./Header";
+import SignIn from "./SignIn";
+import Main from "./Main";
+import NavBar from "./NavBar.jsx"
+
 
 export {
     Header,
+    SignIn,
+    Main,
+    NavBar,
 }

@@ -31,6 +31,7 @@ Si encuentran algun problema o error por favor que me lo informes me seria de mu
 Este proyecto depende de las siguientes bibliotecas y frameworks:
 
 - React
+- React Router Dom
 - TailwindCSS
 - Material UI
 - Material Ui-icons
