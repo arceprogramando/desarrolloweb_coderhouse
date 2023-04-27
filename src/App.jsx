@@ -1,4 +1,3 @@
-import React from 'react'
 import { Header, Main, NavBar } from './components'
 import { BrowserRouter } from 'react-router-dom'
 import styles from './style'

@@ -17,3 +17,14 @@ export{
 // export {
 //     Logo,
 // }
+
+import whatsapp from "./whatsapp.svg"
+import arrow from "./arrow-down.svg"
+import promociones from "./promociones.png"
+import promociones2 from "./promociones2.png"
+export {
+    whatsapp,
+    arrow,
+    promociones,
+    promociones2,
+}

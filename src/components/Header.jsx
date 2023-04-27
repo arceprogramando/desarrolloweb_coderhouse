@@ -1,4 +1,4 @@
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { whatsapp } from "../assets";
 
 const Header = () => {
     const wspUrl = "https://api.whatsapp.com/send/?phone=5491150990913&text=Holaa%21+me+gustaria+un+presupuesto+de+tu+trabajo+desarrollando+paginas+web+%21%21%21%21&type=phone_number&app_absent=0";
@@ -11,9 +11,10 @@ const Header = () => {
 
                     <div className='lg:w-[1024px] w-[320px] flex justify-between items-center '>
 
-                        <a href={wspUrl} target='_blank' className='text-xs'>
-                            <i className='pl-4 '><WhatsAppIcon style={{ fontSize: 16, color: 'white' }} /></i>
-                            +54 9 1150990913
+                        <a href={wspUrl} target='_blank' rel="noreferrer noopener" className='text-xs flex'>
+                            <img src={whatsapp} alt="whatsapp icon" className="w-4 h-4 " />
+                            <p>+54 9 1150990913</p>
+
                         </a>
                         <div className="pr-4">Sign In</div>
                     </div>

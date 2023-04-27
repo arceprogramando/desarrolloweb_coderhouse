@@ -1,5 +1,6 @@
+import { arrow } from "../assets";
 import { headerUrl } from "../constants";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
 
 const NavBar = () => {
     const colorMouseOver = (event) => {
@@ -9,12 +10,13 @@ const NavBar = () => {
         <>
             <nav className="w-full max-w-screen-lg text-xs" >
                 <ul className=" flex justify-around uppercase ">
-                    {headerUrl.map((nav, index) => (
+                    {headerUrl.map((nav) => (
                         <li
                             key={nav.id}
                             onMouseOver={colorMouseOver}
-                            className="hover:text-violet-400 cursor-pointer font-thin tracking-[.2em] ">
-                            {nav.title} <KeyboardArrowDownIcon sx={{ fontSize: 16 }} />
+                            className="hover:text-violet-400 cursor-pointer font-thin tracking-[.2em] flex items-center">
+                            {nav.title}
+                            <img src={arrow} alt="button arrow down" className="w-2 h-2" />
                         </li>
                     ))}
                 </ul>
