@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { whatsapp } from "../assets";
 
 const Header = () => {
@@ -23,10 +24,11 @@ const Header = () => {
                 </div>
                 <div className='text-center font-kaisei mt-10 mb-10'>
 
-
-                    <h1 className=' font-normal text-5xl tracking-widest inline text-gray-700 '>Zaragoza
-                        <span className='block text-purple-400 '>Shoes</span></h1>
-                    <h2 className="text-gray-700 mt-4 tracking-widest" >zapatos y accesorios</h2>
+                    <Link to="/">
+                        <h1 className=' font-normal text-5xl tracking-widest inline text-gray-700 '>Zaragoza
+                            <span className='block text-purple-400 '>Shoes</span></h1>
+                    </Link>
+                    <h2 className="text-gray-700 mt-4 tracking-widest" >shoes and accessories</h2>
                 </div >
             </header >
         </>

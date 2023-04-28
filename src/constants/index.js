@@ -1,17 +1,17 @@
 export const headerUrl = [
     {
-        id: "mujeres",
-        title: "mujeres",
+        id: "womens",
+        title: "womens",
     },
 
 
     {
-        id: "hombres",
-        title: "hombres",
+        id: "men",
+        title: "men",
     },
     {
-        id: "niños",
-        title: "niños",
+        id: "children",
+        title: "children",
     },
     {
         id: "blog",

@@ -16,13 +16,14 @@ export{
 
 import Header from "./Header";
 import SignIn from "./SignIn";
-import Main from "./Main";
 import NavBar from "./NavBar.jsx"
-
+import Welcome from "./Welcome";
+import Carousel from "./Carousel";
 
 export {
     Header,
     SignIn,
-    Main,
     NavBar,
+    Welcome,
+    Carousel,
 }
