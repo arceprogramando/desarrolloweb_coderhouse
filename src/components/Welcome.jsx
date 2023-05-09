@@ -1,5 +1,6 @@
 import Carousel from "./Carousel"
 import { offers } from "../assets"
+import ItemListContainer from "./ItemListContainer"
 
 const Welcome = () => {
     return (
@@ -17,6 +18,7 @@ const Welcome = () => {
 
                 </div>
             </div>
+            <ItemListContainer />
         </>
     )
 }

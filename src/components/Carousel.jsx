@@ -22,6 +22,8 @@ const Carousel = () => {
                 modules={[Autoplay, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
                 slidesPerView={1}
+
+
                 loop={true}
                 autoplay={{
                     delay: 2500,
@@ -29,8 +31,8 @@ const Carousel = () => {
                 }}
                 // pagination={{ clickable: true }}
                 // scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
+                // onSwiper={(swiper) => console.log(swiper)}
+                // onSlideChange={() => console.log('slide change')}
                 className=" max-w-4xl  "
             >
                 {images.map((image, index) => (

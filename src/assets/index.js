@@ -30,4 +30,5 @@ export {
     promociones,
     promociones2,
     offers,
+
 }
