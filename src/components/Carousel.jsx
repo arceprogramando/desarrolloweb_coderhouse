@@ -2,7 +2,8 @@ import { promociones, promociones2 } from "../assets";
 import { Autoplay, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+import '../index.css'
+
 import 'swiper/css';
 
 import 'swiper/css/pagination';
