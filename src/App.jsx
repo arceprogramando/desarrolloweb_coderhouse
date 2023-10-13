@@ -1,6 +1,6 @@
-import { Header, NavBar, Welcome } from './components'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import styles from './style'
+import { Header, NavBar, Welcome } from "./components";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import styles from "./style";
 const App = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
