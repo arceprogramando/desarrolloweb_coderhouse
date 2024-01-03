@@ -1,6 +1,10 @@
+import ItemList from './ItemList'
+
 const ItemListContainer = () => {
   return (
-    <div className="flex justify-center">ItemListContainer-Falta Limpiarlo</div>
+    <div className="flex justify-center">
+      <ItemList/>
+      </div>
   );
 };
 
