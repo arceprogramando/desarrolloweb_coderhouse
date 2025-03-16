@@ -1,20 +1,33 @@
-import { Header, NavBar, Welcome } from "./components";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import styles from "./style";
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import { Header, NavBar, Welcome } from './components';
+import SignIn from './pages/(auth)/SignIn';
+
+
+// Definir las rutas
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: (
+      <>
+        <Header />
+        <NavBar />
+        <Welcome />
+      </>
+    ),
+  },
+  {
+    path: '/signin',
+    element: (
+      <>
+        <Header />
+        <SignIn />
+      </>
+    ),
+  },
+]);
+
 const App = () => {
-  return (
-    <>
-      <BrowserRouter>
-        <div className={styles.flexCenter}>
-          <Header />
-          <NavBar />
-        </div>
-        <Routes>
-          <Route exact path="/" element={<Welcome />} />
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;

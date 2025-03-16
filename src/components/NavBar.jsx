@@ -6,7 +6,7 @@ const NavBar = () => {
     
     return (
         <>
-            <nav className="w-full max-w-screen-lg text-xs" >
+            <nav className="w-full max-w-screen-lg text-xs mx-auto" >
                 <ul className=" flex justify-around uppercase ">
                     {headerUrl.map((nav) => (
                         <li
